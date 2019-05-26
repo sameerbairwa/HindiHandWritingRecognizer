@@ -16,14 +16,14 @@ This code helps you classify different alphabets of hindi language (Devanagiri) 
 <p> CONV2D --> MAXPOOL --> CONV2D --> MAXPOOL -->FC -->Softmax--> Classification </p>
 <h3>Python Implementation</h3>
 <p>
-1.Dataset- DHCD (Devnagari Character Dataset)
-2.Images of size 32 X 32
-3.Convolutional Network Support added.
+1.Dataset- DHCD (Devnagari Character Dataset)<br>
+2.Images of size 32 X 32<br>
+3.Convolutional Network Support added.<br>
 </p>
 
 <h3> Train Acuracy ~ 95% <h3>
   train on 70000 with 8 Epochs</br>
-Test Acuracy ~ 92%</h3>
+<h3>Test Acuracy ~ 92%</h3>
 test on 2001
 <h3 > Execution of program </h3>
 <p> To train the dataset run file handWritingRecognition.py<br>
