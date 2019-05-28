@@ -3,7 +3,7 @@
 """
 Created on Mon Feb 18 22:39:20 2019
 
-@author: sameer
+@author: Sameer Bairwa
 """
 import numpy as np
 from keras import layers
