@@ -3,7 +3,7 @@
 """
 Created on Tue Feb 19 20:04:15 2019
 
-@author: sameer
+@author: Sameer Bairwa 
 """
 
 import cv2
