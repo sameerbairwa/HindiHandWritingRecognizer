@@ -11,7 +11,7 @@ from keras.models import load_model
 import numpy as np
 from collections import deque
 
-model1 = load_model('devanagari_modal.h5')
+model1 = load_model('devanagari_model.h5')
 
 def main():
     letter_count = {0: 'CHECK', 1: '01_ka', 2: '02_kha', 3: '03_ga', 4: '04_gha', 5: '05_kna', 6: 'character_06_cha',
