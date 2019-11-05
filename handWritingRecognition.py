@@ -80,7 +80,7 @@ def main():
     print("CNN Error: %.2f%%" % (100 - scores[1] * 100))
     print_summary(model)
 
-    model.save('devanagari_refined.h5')
+    model.save('devanagari_model.h5')
 
 
 
