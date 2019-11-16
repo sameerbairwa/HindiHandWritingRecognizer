@@ -39,7 +39,7 @@ def main():
         blur = cv2.medianBlur(mask, 15)
         blur = cv2.GaussianBlur(blur, (5, 5), 0)
         thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-        cnts = cv2.findContours(thresh.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+        cnts = cv2.findContours(thresh.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)[1]
         center = None
         if len(cnts) >= 1:
             contour = max(cnts, key=cv2.contourArea(cnts))
