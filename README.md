@@ -21,9 +21,9 @@ This code helps you classify different alphabets of hindi language (Devanagiri) 
 3.Convolutional Network Support added.<br>
 </p>
 
-<h3> Train Acuracy ~ 95% </h3>
+<h3> Train Accuracy ~ 95% </h3>
   train on 70000 with 8 Epochs</br>
-<h3>Test Acuracy ~ 92%</h3>
+<h3>Test Accuracy ~ 92%</h3>
 test on 2001
 <h3 > Execution of program </h3>
 <p> To train the dataset run file handWritingRecognition.py<br>
